@@ -1,0 +1,40 @@
+*, ::before, ::after{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/primer-plano-teclado-gafas-ejecutivos-fondo_1098-3635.jpg);
+}
+
+.container{
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black;
+}
+
+.container img{
+    width: 100%;
+    height: 100%;
+}
+
+.container p{
+    font-size: 3rem;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
